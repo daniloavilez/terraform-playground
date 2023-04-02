@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 resource "aws_launch_configuration" "example" {
   image_id        = "ami-40d28157"
   instance_type   = var.instance_type
